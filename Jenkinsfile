@@ -33,10 +33,10 @@ pipeline {
         }
     }
 
-    post {
-        always {
-            // Clean up the workspace after the build
-            bat 'del /s /q build\\*'
-        }
-    }
+    // post {
+    //     always {
+    //         // Clean up the workspace after the build
+    //         bat 'del /s /q build\\*'
+    //     }
+    // }
 }

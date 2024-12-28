@@ -2,6 +2,7 @@
   "name": "helloworld-deployment-react",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://helloworld-deployment-react-bucket.s3-website-us-west-1.amazonaws.com",
   "dependencies": {
     "cra-template": "1.2.0",
     "react": "^19.0.0",

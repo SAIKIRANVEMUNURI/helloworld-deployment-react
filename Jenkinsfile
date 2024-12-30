@@ -26,8 +26,7 @@ pipeline {
         stage('Deploy to S3') {
             steps {
                 // Deploy build files to the S3 bucket using AWS CLI
-                bat 'aws --version'
-                bat 'aws s3 sync build s3://helloworld-deployment-react-bucket/ --delete'
+                bat '"C:\\Program Files\\Amazon\\AWSCLIV2\\aws" s3 sync build s3://helloworld-deployment-react-bucket/ --delete'
             }
         }
     }
